@@ -1,0 +1,965 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+body {
+      background-color: #F291BC;
+  }
+.header2{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    padding-left: 80px;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+    color: #0A2481;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.star1 {
+    content: "\2605";
+    color: #ffd208;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.star2 {
+    content: "\2605";
+    color: #ffd208;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 800px;
+}
+.star3 {
+    content: "\2605";
+    color: #ffd208;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 1300px;
+}
+
+.all-cartoon{
+    position: inline-block;
+    margin-right: 20px;
+}
+
+/*1st Tomato Cartoon*/
+.cartoon {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .cartoon div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 1vmin solid black;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  /****/
+  .cartoon {
+    --pot: #f79226;
+    --pot-dark: rgb(219, 2, 2);
+    --line: #a50;
+    --soil: #631;
+    --leaf: #09ac17;
+  }
+  .pot-body {
+    left: 50%;
+    top: 35%;
+    width: 39%;
+    height: 38%;
+    background: var(--pot-dark);
+    border-radius: 50%;
+    clip-path: circle;
+    transform: translate(-50%, 0);
+  }
+  
+  .eye {
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: white;
+    top: 50%;
+    left: 42%;
+    box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+  }
+  
+  .eye + .eye {
+    left: 53%;
+  }
+  
+  .mouth {
+    top: 55%;
+    left: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    border-width: 0.75vmin;
+    transform: translate(-50%, 0) rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  .legs {
+    border-radius: 10vmin;
+    width: 25%;
+    height: 20%;
+    border: 3vmin solid black;
+    clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 67%;
+  }
+  
+  .legs::before {
+    width: 0%;
+    height: 27%;
+    border-radius: 10vmin 10vmin 0 0;
+    background: black;
+    top: 40%;
+    left: -70%;
+    box-shadow: 24vmin 0;
+  }
+  
+  .arms {
+    width: 70%;
+    height: 100%;
+    border: 2.25vmin solid transparent;
+    border-radius: 40vmin;
+    border-top-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .green {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    top: 0%;
+    left: 49%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  
+  .green::after {
+    width: 20vmin;
+    height: 23vmin;
+    border-radius: 80%;
+    bottom: -13vmin;
+    left: 5%;
+    box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green::before {
+    width: 20vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    bottom: -12vmin;
+    left: 5%;
+    box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green-2::after {
+    height: 25vmin;
+    left: 52%;
+    box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+  } 
+  
+  
+  
+  
+  
+  /*2nd Tomato Cartoon*/
+  .cartoon2 {
+    position: absolute;
+    top: 60%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .cartoon2 div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 1vmin solid black;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  /****/
+  .cartoon2 {
+    --pot: #f79226;
+    --pot-dark: rgb(219, 2, 2);
+    --line: #a50;
+    --soil: #631;
+    --leaf: #09ac17;
+  }
+  .pot-body {
+    left: 50%;
+    top: 35%;
+    width: 39%;
+    height: 38%;
+    background: var(--pot-dark);
+    border-radius: 50%;
+    clip-path: circle;
+    transform: translate(-50%, 0);
+  }
+  
+  .eye {
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: white;
+    top: 50%;
+    left: 42%;
+    box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+  }
+  
+  .eye + .eye {
+    left: 53%;
+  }
+  
+  .mouth {
+    top: 55%;
+    left: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    border-width: 0.75vmin;
+    transform: translate(-50%, 0) rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  .legs {
+    border-radius: 10vmin;
+    width: 25%;
+    height: 20%;
+    border: 3vmin solid black;
+    clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 67%;
+  }
+  
+  .legs::before {
+    width: 0%;
+    height: 27%;
+    border-radius: 10vmin 10vmin 0 0;
+    background: black;
+    top: 40%;
+    left: -70%;
+    box-shadow: 24vmin 0;
+  }
+  
+  .arms {
+    width: 70%;
+    height: 100%;
+    border: 2.25vmin solid transparent;
+    border-radius: 40vmin;
+    border-top-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .green {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    top: 0%;
+    left: 49%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  
+  .green::after {
+    width: 20vmin;
+    height: 23vmin;
+    border-radius: 80%;
+    bottom: -13vmin;
+    left: 5%;
+    box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green::before {
+    width: 20vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    bottom: -12vmin;
+    left: 5%;
+    box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green-2::after {
+    height: 25vmin;
+    left: 52%;
+    box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+  } 
+  
+  
+  
+  
+  /*3rd Tomato Cartoon*/
+  .cartoon3 {
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .cartoon3 div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 1vmin solid black;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  /****/
+  .cartoon3 {
+    --pot: #f79226;
+    --pot-dark: rgb(219, 2, 2);
+    --line: #a50;
+    --soil: #631;
+    --leaf: #09ac17;
+  }
+  .pot-body {
+    left: 50%;
+    top: 35%;
+    width: 39%;
+    height: 38%;
+    background: var(--pot-dark);
+    border-radius: 50%;
+    clip-path: circle;
+    transform: translate(-50%, 0);
+  }
+  
+  .eye {
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: white;
+    top: 50%;
+    left: 42%;
+    box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+  }
+  
+  .eye + .eye {
+    left: 53%;
+  }
+  
+  .mouth {
+    top: 55%;
+    left: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    border-width: 0.75vmin;
+    transform: translate(-50%, 0) rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  .legs {
+    border-radius: 10vmin;
+    width: 25%;
+    height: 20%;
+    border: 3vmin solid black;
+    clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 67%;
+  }
+  
+  .legs::before {
+    width: 0%;
+    height: 27%;
+    border-radius: 10vmin 10vmin 0 0;
+    background: black;
+    top: 40%;
+    left: -70%;
+    box-shadow: 24vmin 0;
+  }
+  
+  .arms {
+    width: 400px;
+    height: 200px;
+    border: 2.25vmin solid transparent;
+    border-radius: 40vmin;
+    border-top-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .green {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    top: 0%;
+    left: 49%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  
+  .green::after {
+    width: 20vmin;
+    height: 23vmin;
+    border-radius: 80%;
+    bottom: -13vmin;
+    left: 5%;
+    box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green::before {
+    width: 20vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    bottom: -12vmin;
+    left: 5%;
+    box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green-2::after {
+    height: 25vmin;
+    left: 52%;
+    box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+
+/*4th Tomato Cartoon*/
+.cartoon4 {
+    position: absolute;
+    top: 100%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .cartoon4 div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 1vmin solid black;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  /****/
+  .cartoon4 {
+    --pot: #f79226;
+    --pot-dark: rgb(2, 13, 219);
+    --line: #a50;
+    --soil: #631;
+    --leaf: #09ac17;
+  }
+  .pot-body {
+    left: 50%;
+    top: 35%;
+    width: 39%;
+    height: 38%;
+    background: var(--pot-dark);
+    border-radius: 50%;
+    clip-path: circle;
+    transform: translate(-50%, 0);
+  }
+  
+  .eye {
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: white;
+    top: 50%;
+    left: 42%;
+    box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+  }
+  
+  .eye + .eye {
+    left: 53%;
+  }
+  
+  .mouth {
+    top: 55%;
+    left: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    border-width: 0.75vmin;
+    transform: translate(-50%, 0) rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  .legs {
+    border-radius: 10vmin;
+    width: 25%;
+    height: 20%;
+    border: 3vmin solid black;
+    clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 67%;
+  }
+  
+  .legs::before {
+    width: 0%;
+    height: 27%;
+    border-radius: 10vmin 10vmin 0 0;
+    background: black;
+    top: 40%;
+    left: -70%;
+    box-shadow: 24vmin 0;
+  }
+  
+  .arms {
+    width: 400px;
+    height: 200px;
+    border: 2.25vmin solid transparent;
+    border-radius: 40vmin;
+    border-top-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .green {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    top: 0%;
+    left: 49%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  
+  .green::after {
+    width: 20vmin;
+    height: 23vmin;
+    border-radius: 80%;
+    bottom: -13vmin;
+    left: 5%;
+    box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green::before {
+    width: 20vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    bottom: -12vmin;
+    left: 5%;
+    box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green-2::after {
+    height: 25vmin;
+    left: 52%;
+    box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+
+/*5th Tomato Cartoon*/
+.cartoon5 {
+    position: absolute;
+    top: 52%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .cartoon5 div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 1vmin solid black;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  /****/
+  .cartoon5 {
+    --pot: #f79226;
+    --pot-dark: rgb(181, 184, 255);
+    --line: #a50;
+    --soil: #631;
+    --leaf: #09ac17;
+  }
+  .pot-body {
+    left: 50%;
+    top: 35%;
+    width: 39%;
+    height: 38%;
+    background: var(--pot-dark);
+    border-radius: 50%;
+    clip-path: circle;
+    transform: translate(-50%, 0);
+  }
+  
+  .eye {
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: white;
+    top: 50%;
+    left: 42%;
+    box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+  }
+  
+  .eye + .eye {
+    left: 53%;
+  }
+  
+  .mouth {
+    top: 55%;
+    left: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    border-width: 0.75vmin;
+    transform: translate(-50%, 0) rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  .legs {
+    border-radius: 10vmin;
+    width: 25%;
+    height: 20%;
+    border: 3vmin solid black;
+    clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 67%;
+  }
+  
+  .legs::before {
+    width: 0%;
+    height: 27%;
+    border-radius: 10vmin 10vmin 0 0;
+    background: black;
+    top: 40%;
+    left: -70%;
+    box-shadow: 24vmin 0;
+  }
+  
+  .arms {
+    width: 400px;
+    height: 200px;
+    border: 2.25vmin solid transparent;
+    border-radius: 40vmin;
+    border-top-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .green {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    top: 0%;
+    left: 49%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  
+  .green::after {
+    width: 20vmin;
+    height: 23vmin;
+    border-radius: 80%;
+    bottom: -13vmin;
+    left: 5%;
+    box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green::before {
+    width: 20vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    bottom: -12vmin;
+    left: 5%;
+    box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green-2::after {
+    height: 25vmin;
+    left: 52%;
+    box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+
+/*6th Tomato Cartoon*/
+.cartoon6 {
+    position: absolute;
+    top: 48%;
+    left: 105%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .cartoon6 div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 1vmin solid black;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  /****/
+  .cartoon6 {
+    --pot: #f79226;
+    --pot-dark: rgb(206, 207, 235);
+    --line: #a50;
+    --soil: #631;
+    --leaf: #09ac17;
+  }
+  .pot-body {
+    left: 50%;
+    top: 35%;
+    width: 39%;
+    height: 38%;
+    background: var(--pot-dark);
+    border-radius: 50%;
+    clip-path: circle;
+    transform: translate(-50%, 0);
+  }
+  
+  .eye {
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: white;
+    top: 50%;
+    left: 42%;
+    box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+  }
+  
+  .eye + .eye {
+    left: 53%;
+  }
+  
+  .mouth {
+    top: 55%;
+    left: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    border-width: 0.75vmin;
+    transform: translate(-50%, 0) rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  .legs {
+    border-radius: 10vmin;
+    width: 25%;
+    height: 20%;
+    border: 3vmin solid black;
+    clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 67%;
+  }
+  
+  .legs::before {
+    width: 0%;
+    height: 27%;
+    border-radius: 10vmin 10vmin 0 0;
+    background: black;
+    top: 40%;
+    left: -70%;
+    box-shadow: 24vmin 0;
+  }
+  
+  .arms {
+    width: 400px;
+    height: 200px;
+    border: 2.25vmin solid transparent;
+    border-radius: 40vmin;
+    border-top-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .green {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    top: 0%;
+    left: 49%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  
+  .green::after {
+    width: 20vmin;
+    height: 23vmin;
+    border-radius: 80%;
+    bottom: -13vmin;
+    left: 5%;
+    box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green::before {
+    width: 20vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    bottom: -12vmin;
+    left: 5%;
+    box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+  }
+  
+  .green-2::after {
+    height: 25vmin;
+    left: 52%;
+    box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+  }
+
+/*The bottom buket*/
+.tv-position{
+    padding-top: 900px;
+    padding-left: 10px;
+}
+.tv {
+    width: 900px;
+    height: 550px;
+    margin: 20px 0;
+    background: red;
+    border-radius: 50% / 10%;
+    color: white;
+    text-indent: .1em;
+  }
+.tv:before {
+    content: '';
+    
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+  }
+
+
+
+
+
+
+
+  /*Backs button*/
+
+.back-button{
+    padding-left: 80px;
+    padding-top: 1000px;
+    padding-bottom: 20px;
+  }
+  .button {
+    border: none;
+    color: brown;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Montserrat',bold, sans-serif; 
+  
+  }
+  
+  .button1 {
+    background-color: #0A2481; 
+    color: black; 
+  
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: #F8E0C1;
+  }
+  
+  /* unvisited link */
+  a:link {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-size: 1.3em;
+  }
+  
+  /* visited link */
+  a:visited {
+  color: #ffffff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+  color: #0A2481;
+  }
+  
+  /* selected link */
+  a:active {
+  color: green;
+  }

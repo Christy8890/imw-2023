@@ -1,0 +1,509 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: #F291BC;
+}
+  h1{
+    font-size: 6.5em;
+    margin-bottom: 5px;
+    padding-left: 80px;
+    padding-top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+  }
+  
+  p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-left: 82px;
+    padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #0A2481;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+
+
+  /*heading*/
+  .header{
+    padding-left: 80px;
+    padding-top: 1200px;
+    padding-bottom: 80px;
+  }
+  .button {
+    border: none;
+    color: brown;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Montserrat',bold, sans-serif; 
+
+  }
+  
+  .button1 {
+    background-color: #0A2481; 
+    color: black; 
+
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: #F8E0C1;
+  }
+
+/* unvisited link */
+a:link {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+/* visited link */
+a:visited {
+  color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0A2481;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+
+
+
+
+
+
+
+ /*Red Tomato Cartoon*/
+.cartoon {
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 80vmin;
+  height: 80vmin;
+}
+.cartoon div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.b {
+  border: 1vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+/****/
+.cartoon {
+  --pot: #f79226;
+  --pot-dark: rgb(219, 2, 2);
+  --line: #a50;
+  --soil: #631;
+  --leaf: #09ac17;
+}
+.pot-body {
+  left: 50%;
+  top: 35%;
+  width: 39%;
+  height: 38%;
+  background: var(--pot-dark);
+  border-radius: 50%;
+  clip-path: circle;
+  transform: translate(-50%, 0);
+}
+
+.eye {
+  width: 3.8vmin;
+  height: 3.8vmin;
+  background: white;
+  top: 50%;
+  left: 42%;
+  box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+}
+
+.eye + .eye {
+  left: 53%;
+}
+
+.mouth {
+  top: 55%;
+  left: 50%;
+  width: 3vmin;
+  height: 3vmin;
+  border-width: 0.75vmin;
+  transform: translate(-50%, 0) rotate(45deg);
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.legs {
+  border-radius: 10vmin;
+  width: 25%;
+  height: 20%;
+  border: 3vmin solid black;
+  clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+  transform: translate(-50%,0);
+  left: 50%;
+  top: 67%;
+}
+
+.legs::before {
+  width: 0%;
+  height: 27%;
+  border-radius: 10vmin 10vmin 0 0;
+  background: black;
+  top: 40%;
+  left: -70%;
+  box-shadow: 24vmin 0;
+}
+
+.arms {
+  width: 70%;
+  height: 100%;
+  border: 2.25vmin solid transparent;
+  border-radius: 40vmin;
+  border-top-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.green {
+  width: 50%;
+  height: 40%;
+  border-radius: 50%;
+  top: 0%;
+  left: 49%;
+  transform: translate(-50%, 0);
+  overflow: hidden;
+}
+
+.green::after {
+  width: 20vmin;
+  height: 23vmin;
+  border-radius: 80%;
+  bottom: -13vmin;
+  left: 5%;
+  box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+}
+
+.green::before {
+  width: 20vmin;
+  height: 30vmin;
+  border-radius: 50%;
+  bottom: -12vmin;
+  left: 5%;
+  box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+}
+
+.green-2::after {
+  height: 25vmin;
+  left: 52%;
+  box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+} 
+
+
+
+
+
+/*Yellow Tomato Cartoon*/
+.cartoon2 {
+  position: absolute;
+  top: 110%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 80vmin;
+  height: 80vmin;
+}
+.cartoon2 div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.b {
+  border: 1vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+/****/
+.cartoon2 {
+  --pot: #f79226;
+  --pot-dark: rgb(247, 198, 3);
+  --line: #a50;
+  --soil: #631;
+  --leaf: #09ac17;
+}
+.pot-body {
+  left: 50%;
+  top: 35%;
+  width: 39%;
+  height: 38%;
+  background: var(--pot-dark);
+  border-radius: 50%;
+  clip-path: circle;
+  transform: translate(-50%, 0);
+}
+
+.eye {
+  width: 3.8vmin;
+  height: 3.8vmin;
+  background: white;
+  top: 50%;
+  left: 42%;
+  box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+}
+
+.eye + .eye {
+  left: 53%;
+}
+
+.mouth {
+  top: 55%;
+  left: 50%;
+  width: 3vmin;
+  height: 3vmin;
+  border-width: 0.75vmin;
+  transform: translate(-50%, 0) rotate(45deg);
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.legs {
+  border-radius: 10vmin;
+  width: 25%;
+  height: 20%;
+  border: 3vmin solid black;
+  clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+  transform: translate(-50%,0);
+  left: 50%;
+  top: 67%;
+}
+
+.legs::before {
+  width: 0%;
+  height: 27%;
+  border-radius: 10vmin 10vmin 0 0;
+  background: black;
+  top: 40%;
+  left: -70%;
+  box-shadow: 24vmin 0;
+}
+
+.arms {
+  width: 70%;
+  height: 100%;
+  border: 2.25vmin solid transparent;
+  border-radius: 40vmin;
+  border-top-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.green {
+  width: 50%;
+  height: 40%;
+  border-radius: 50%;
+  top: 0%;
+  left: 49%;
+  transform: translate(-50%, 0);
+  overflow: hidden;
+}
+
+.green::after {
+  width: 20vmin;
+  height: 23vmin;
+  border-radius: 80%;
+  bottom: -13vmin;
+  left: 5%;
+  box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+}
+
+.green::before {
+  width: 20vmin;
+  height: 30vmin;
+  border-radius: 50%;
+  bottom: -12vmin;
+  left: 5%;
+  box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+}
+
+.green-2::after {
+  height: 25vmin;
+  left: 52%;
+  box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+} 
+
+
+
+
+/*Green Tomato Cartoon*/
+.cartoon3 {
+  position: absolute;
+  top: 175%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 80vmin;
+  height: 80vmin;
+}
+.cartoon3 div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.b {
+  border: 1vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+/****/
+.cartoon3 {
+  --pot: #f79226;
+  --pot-dark: rgb(181, 220, 163);
+  --line: #a50;
+  --soil: #631;
+  --leaf: #09ac17;
+}
+.pot-body {
+  left: 50%;
+  top: 35%;
+  width: 39%;
+  height: 38%;
+  background: var(--pot-dark);
+  border-radius: 50%;
+  clip-path: circle;
+  transform: translate(-50%, 0);
+}
+
+.eye {
+  width: 3.8vmin;
+  height: 3.8vmin;
+  background: white;
+  top: 50%;
+  left: 42%;
+  box-shadow: inset -0.40vmin -0.50vmin 0 1.125vmin black;
+}
+
+.eye + .eye {
+  left: 53%;
+}
+
+.mouth {
+  top: 55%;
+  left: 50%;
+  width: 3vmin;
+  height: 3vmin;
+  border-width: 0.75vmin;
+  transform: translate(-50%, 0) rotate(45deg);
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.legs {
+  border-radius: 10vmin;
+  width: 25%;
+  height: 20%;
+  border: 3vmin solid black;
+  clip-path: polygon(-200% 0%, 200% 0%, 200% 60%, -200% 60%);
+  transform: translate(-50%,0);
+  left: 50%;
+  top: 67%;
+}
+
+.legs::before {
+  width: 0%;
+  height: 27%;
+  border-radius: 10vmin 10vmin 0 0;
+  background: black;
+  top: 40%;
+  left: -70%;
+  box-shadow: 24vmin 0;
+}
+
+.arms {
+  width: 400px;
+  height: 200px;
+  border: 2.25vmin solid transparent;
+  border-radius: 40vmin;
+  border-top-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.green {
+  width: 50%;
+  height: 40%;
+  border-radius: 50%;
+  top: 0%;
+  left: 49%;
+  transform: translate(-50%, 0);
+  overflow: hidden;
+}
+
+.green::after {
+  width: 20vmin;
+  height: 23vmin;
+  border-radius: 80%;
+  bottom: -13vmin;
+  left: 5%;
+  box-shadow: inset -4.5vmin 1vmin 0 -1vmin var(--leaf);
+}
+
+.green::before {
+  width: 20vmin;
+  height: 30vmin;
+  border-radius: 50%;
+  bottom: -12vmin;
+  left: 5%;
+  box-shadow: inset -3vmin 1vmin 0 -1vmin var(--leaf);
+}
+
+.green-2::after {
+  height: 25vmin;
+  left: 52%;
+  box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
+}

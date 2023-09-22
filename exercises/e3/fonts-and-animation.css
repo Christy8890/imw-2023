@@ -1,0 +1,111 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  padding-bottom: 1000px;
+}
+
+
+
+/********************************** 1st: Expand Animation**********************************/
+/*Fallback font*/
+.expand{
+    border: 1px soild black;
+    font-size: 72px;
+    font-family: "yink", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+/*Display Self Select font*/
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-l97t9daAG8.eot');
+    src: url('fonts/Bespoke-l97t9daAG8.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-l97t9daAG8.woff') format('woff'),
+       url('fonts/Bespoke-l97t9daAG8.ttf') format('truetype'),
+       url('fonts/Bespoke-l97t9daAG8.svg#Bespoke-l97t9daAG8') format('svg');
+  }
+
+.expand-bespoke{
+    font-size: 72px;
+    color: #04ac4a;
+    font-family: 'Bespoke', sans-serif; 
+    transition: font-size 250ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.expand-bespoke:hover{
+    font-size: 150px;
+    color: #92ffbf;
+}
+
+
+
+/********************************** 2nd: highlighting Animation**********************************/
+/*Fallback font*/
+  .highlight{
+    border: 1px soild black;
+    font-size: 100px;
+    font-family: "interpol-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;   
+}
+/*Display Adobe font*/
+.highlight-yink{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
+    color: #54b3d6;
+    font-family: 'yink', sans-serif;
+    font-size: 100px;
+    font-weight: 80;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+.highlight-yink:hover {
+    color: #fff;
+    box-shadow: inset 500px 0 0 0 #54b3d6;;
+  }
+  
+  
+
+/********************************** 3rd: spinning Animation**********************************/
+/*Fallback font*/
+.spinning{
+    font-size: 100px;
+    font-family: "interpol-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 1px soild black;
+    padding-top: 10px;    
+}
+
+/*Display Google font*/
+.spinning-roboto{
+    font-size: 100px;
+    color: #c50194;
+    padding-bottom: 30px;
+    margin-bottom: 900px;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transition: font-size 200ms ease, transform 850ms ease;
+}
+
+.spinning-roboto:hover{
+    font-size: 170px;
+    transform: rotate(360deg);
+}
