@@ -1,0 +1,74 @@
+/*CSS Page Set-up*/
+* { 
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #b9b9b9;
+}
+
+/*Type Set-up*/
+.header2{
+  font-size: 2.2em;
+  text-align: center;
+  padding-top: 350px;
+  font-family: 'Inter', sans-serif;
+  color: #0A2481;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/*********************************try-again-button*********************************/
+
+.try-again-button{
+  text-align: center;
+   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  border: none;
+  color: brown;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Montserrat',bold, sans-serif; 
+} 
+
+.button1 {
+  background-color: #0A2481; 
+  color: black; 
+}
+  
+.button1:hover {
+  background-color: white;
+  color: #F8E0C1;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+  
+/* visited link */
+a:visited {
+  color: #ffffff;
+}
+  
+/* mouse over link */
+a:hover {
+  color: #0A2481;
+}
+  
+/* selected link */
+a:active {
+  color: green;
+}

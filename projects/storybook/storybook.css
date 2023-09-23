@@ -1,64 +1,66 @@
+/*CSS Page Set-up*/
 * { 
   margin: 0;
   padding: 0;
 }
+
 body {
-    background-color: #F291BC;
+  background-color: #F291BC;
 }
-  h1{
-    font-size: 6.5em;
-    margin-bottom: 5px;
-    padding-left: 80px;
-    padding-top: 80px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-  }
-  
-  p{
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    padding-left: 82px;
-    padding-top: 30px;
-    font-family: 'Inter', sans-serif;
-    color: #0A2481;
-    font-family: 'Roboto Mono', monospace;
-  }
+
+/*Type Set-up*/
+h1{
+  font-size: 6.5em;
+  margin-bottom: 5px;
+  padding-left: 80px;
+  padding-top: 80px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+p{
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  padding-left: 82px;
+  padding-top: 30px;
+  font-family: 'Inter', sans-serif;
+  color: #0A2481;
+  font-family: 'Roboto Mono', monospace;
+}
   
 
 
-  /*heading*/
-  .header{
-    padding-left: 80px;
-    padding-top: 1200px;
-    padding-bottom: 80px;
-  }
-  .button {
-    border: none;
-    color: brown;
-    padding: 14px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 6px 4px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-family: 'Montserrat',bold, sans-serif; 
+/*Container with button, copy and all 3 cartoons*/
+.header{
+  padding-left: 80px;
+  padding-top: 1200px;
+  padding-bottom: 80px;
+}
 
-  }
-  
-  .button1 {
-    background-color: #0A2481; 
-    color: black; 
+.button {
+  border: none;
+  color: brown;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Montserrat',bold, sans-serif; 
+}
 
-  }
-  
+.button1 {
+  background-color: #0A2481; 
+  color: black; 
+} 
+
   .button1:hover {
-    background-color: white;
-    color: #F8E0C1;
-  }
+  background-color: white;
+  color: #F8E0C1;
+}
 
-/* unvisited link */
 a:link {
   color: white;
   font-family: 'Roboto Mono', monospace;
@@ -66,36 +68,29 @@ a:link {
   font-size: 1.3em;
 }
 
-/* visited link */
 a:visited {
   color: #ffffff;
 }
 
-/* mouse over link */
 a:hover {
   color: #0A2481;
 }
 
-/* selected link */
 a:active {
   color: green;
 }
 
 
-
-
-
-
-
- /*Red Tomato Cartoon*/
+/*********************************Red Tomato Cartoon*********************************/
 .cartoon {
   position: absolute;
   top: 45%;
   left: 75%;
   transform: translate(-50%, -50%);
   width: 80vmin;
-  height: 80vmin;
+  height: 80vmin; 
 }
+
 .cartoon div {
   position: absolute;
   box-sizing: border-box;
@@ -124,6 +119,7 @@ a:active {
   --soil: #631;
   --leaf: #09ac17;
 }
+
 .pot-body {
   left: 50%;
   top: 35%;
@@ -133,6 +129,7 @@ a:active {
   border-radius: 50%;
   clip-path: circle;
   transform: translate(-50%, 0);
+  transform: width, height 250ms ease;
 }
 
 .eye {
@@ -223,13 +220,17 @@ a:active {
   height: 25vmin;
   left: 52%;
   box-shadow: inset 3.5vmin 1vmin 0 -1vmin var(--leaf);
-} 
+}
+
+.pot-body:hover{
+  width: 59%;
+  height: 58%;
+}
 
 
 
 
-
-/*Yellow Tomato Cartoon*/
+/*********************************Yellow Tomato Cartoon*********************************/
 .cartoon2 {
   position: absolute;
   top: 110%;
@@ -238,6 +239,7 @@ a:active {
   width: 80vmin;
   height: 80vmin;
 }
+
 .cartoon2 div {
   position: absolute;
   box-sizing: border-box;
@@ -266,6 +268,7 @@ a:active {
   --soil: #631;
   --leaf: #09ac17;
 }
+
 .pot-body {
   left: 50%;
   top: 35%;
@@ -370,7 +373,7 @@ a:active {
 
 
 
-/*Green Tomato Cartoon*/
+/*********************************Green Tomato Cartoon*********************************/
 .cartoon3 {
   position: absolute;
   top: 175%;
@@ -379,6 +382,7 @@ a:active {
   width: 80vmin;
   height: 80vmin;
 }
+
 .cartoon3 div {
   position: absolute;
   box-sizing: border-box;
@@ -407,6 +411,7 @@ a:active {
   --soil: #631;
   --leaf: #09ac17;
 }
+
 .pot-body {
   left: 50%;
   top: 35%;
