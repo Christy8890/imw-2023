@@ -9,6 +9,7 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
+/****************************Header****************************************/
 header{
     width: 700px;
     height: 103px;
@@ -41,6 +42,7 @@ a{
     font-size: 12px;
 }
 
+/****************************Main Section****************************************/
 .line{
     width: 700px;
     height: 347px;
@@ -72,6 +74,7 @@ h1{
     font-size: 12px;
     font-weight: 600;
 }
+
 .medium-header{
     width: 700px;
     height: 113px;
@@ -90,7 +93,6 @@ h2{
 main{
     width: 700px;
     background: white;
-    /* border: 1px solid black; */
 }
 
 .site-title{
@@ -126,7 +128,7 @@ main{
     margin: auto;
 }
 
-/********************************************************************/
+/********************************Footer Section************************************/
 .footer-box{
     width: 700px;
     height: 129px;
@@ -153,6 +155,7 @@ main{
     padding-top: 9px;    
 }
 
+/*****Instagram, Linkedin & Facebook******/
 .social-media1{
     padding-left: 15px;
     font-weight: 600;  
@@ -171,7 +174,7 @@ main{
     font-size: 15px;
 }
 
-/***********/
+/******Link 1, 2 & 3******/
 .last-links{
     width: 72px;
     height: 80px;
