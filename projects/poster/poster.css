@@ -149,25 +149,25 @@ p4{
 
 /* unvisited link */
 a:link {
-color: black;
-font-family: 'Inter', sans-serif;
-text-decoration: none;
-font-size: 1.3em;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size: 1.3em;
 }
 
 /* visited link */
-a:visited {
-color: #ffffff;
+  a:visited {
+  color: #ffffff;
 }
 
 /* mouse over link */
-a:hover {
-color: #D0E957;
+  a:hover {
+  color: #D0E957;
 }
 
 /* selected link */
-a:active {
-color: green;
+  a:active {
+  color: green;
 }
 
 .hook{
@@ -175,7 +175,6 @@ color: green;
   padding-top: 24px;
   font-size: 85px;
   color: white;
-  animation-delay: 1.2s;
 }
 
 .highlight1{
@@ -192,6 +191,7 @@ color: green;
   line-height: 1;
   text-decoration: none;
   margin-top: 10px;
+  text-decoration: underline;
 }
 
 .highlight1:hover{
@@ -208,7 +208,7 @@ color: green;
   color: #D0E957;
   font-family: "dico-code-two", mono;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic; 
   font-size: 85px;
   line-height: 1;
   text-decoration: none;
@@ -220,6 +220,29 @@ color: green;
   color: black;
   box-shadow: inset 385px 0 0 0 #94CBFF;
 }
+
+
+
+@keyframes blink-caret {
+  from { border-color: none }
+  to { border-color: white; }
+}
+
+.blink{
+  overflow: hidden;
+  border-right: 5px solid black;
+  white-space: nowrap;
+  font-family: "dico-code-two", mono;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 85px;
+  color: white;
+  width: 0;
+  animation: 
+  
+    blink-caret 0.9s infinite normal;
+}
+
 
 h{
   font-family: "dico-code-two", mono;
@@ -262,6 +285,7 @@ p5{
 .web-colour{
   font-size: 56px;
   color: #a8c80b;
+  font-style: italic;
 }
 
 .title:hover{
@@ -295,7 +319,7 @@ p5{
   font-weight: 400;
   font-style: normal;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .title-button{
@@ -501,6 +525,7 @@ p11{
   height: 150px;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+  font-style: italic;
   font-size: 27px;
 }
 
@@ -658,23 +683,23 @@ a:link {
 }
 
 .highlight{
-  box-shadow: inset 0 0 0 0 #FFBC01;
-  color: #FFBC01;
+  box-shadow: inset 0 0 0 0 #94CBFF;
+  color: #94CBFF;
   padding: 0 .2rem;
   margin: 0 -.2rem;
   transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
-  color: #FFBC01;
+  color: #000000;
   font-family: 'yink', sans-serif;
   font-size: 35px;
   font-weight: 80;
   line-height: 1;
-  text-decoration: none;
+  text-decoration: underline;
   margin-bottom: 28px; 
 }
 
 .highlight:hover{
-  color: #fff;
-  box-shadow: inset 800px 0 0 0 #FFBC01;;
+  color: #000000;
+  box-shadow: inset 800px 0 0 0 #94CBFF;
 }
 
 
