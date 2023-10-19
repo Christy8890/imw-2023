@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E5: Javascript</title>
+
+    <!-----------------Connect to CSS file---------------------->
+    <link rel="stylesheet" type="text/css" href="javascript.css"/>
+
+    <!------------ Google font ---------------->
+    <link rel="stylesheet" href="https://use.typekit.net/yrq2sck.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Xanh+Mono:ital@0;1&display=swap">
+
+    <!---------------------------------------------- Adobe font ---------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&display=swap" rel="p.css">
+
+</head>
+ 
+<body>
+    <!----------------------------6 container boxes------------------------------>
+    <main class="grid-container">
+
+        <!--Box 1: Interaction-->   
+        <section class="exercise" id="interactionContainer">
+            <h2>Interaction</h2>
+            <p>Click on a circle to change background color of this container.</p>
+            <div class="colors" id="green"></div>
+            <div class="colors" id="plum"></div>
+            <div class="colors" id="blue"></div>
+        </section>
+    
+        <!--Box 2: Loop-->
+        <section class="exercise" id="loopContainer">
+            <h2>Loop</h2>
+            <p>Use a for loop to add repeating text to this container.</p>
+        </section>
+    
+        <!--Box 3: Condition-->
+        <section class="exercise" id="conditionContainer">
+            <h2>Condition</h2>
+            <p>Change the color of the square based on a set of conditions.</p>
+            <div id="conditions"></div>
+        </section>
+    
+        <!--Box 4: Time-->
+        <section class="exercise" id="timeContainer">
+            <h2>Time</h2>
+            <p>Increase the font size of the text below as time passes.</p>
+            <p id="increaseText">Increase+</p>
+        </section>
+    
+        <!--Box 5: Input-->
+        <section class="exercise" id="inputContainer">
+            <h2>Input</h2>
+            <p>Display the number of characters from the input field.</p>
+            <p id="text-length">Display value here!</p>
+            <form id="form">
+                <input type="text" placeholder="Type Something!" id="inputText">
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </section>
+
+        <!--Box 6: Console-->
+        <section class="exercise" id="consoleContainer">
+            <h2>Console</h2>
+            <p>Print a message of your choice to the console.</p>
+        </section>
+    </main>
+
+    <!-----------------Connect to Javascript file----------------->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
