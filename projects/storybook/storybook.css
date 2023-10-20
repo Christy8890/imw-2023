@@ -56,7 +56,7 @@ p{
   color: black; 
 } 
 
-  .button1:hover {
+.button1:hover {
   background-color: white;
   color: #F8E0C1;
 }
