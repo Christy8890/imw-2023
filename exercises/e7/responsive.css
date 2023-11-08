@@ -1,0 +1,95 @@
+/*Setting up the body section//////////////////////////////////////*/
+body{
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    display: none; 
+}
+
+h1{
+    font-size: clamp(35px, 7vw, 70px);
+    font-family: 'Xanh Mono';
+}
+  
+
+/*Setting up each frame//////////////////////////////////////*/ 
+
+/*5 Slices of Pizzas///////////////*/ 
+@media (min-width: 1200px){
+    #pizza5 {
+      display: block; 
+    }
+
+    body{
+      background: rgb(224, 151, 151);
+    }
+  
+    h1{
+      color: rgb(172, 74, 74);
+    }
+}
+
+/*4 Slices of Pizzas///////////////*/ 
+@media (max-width: 1199px) and (min-width: 1000px){
+    #pizza4{
+      display: block; 
+    }
+
+    body{
+      background: rgb(255, 225, 170);
+    }
+  
+    h1{
+      color: rgb(210, 130, 55);
+    }
+}
+
+/*3 Slices of Pizzas///////////////*/ 
+@media (max-width: 1000px) and (min-width: 800px){
+    #pizza3{
+      display: block; 
+    }
+
+    body{
+      background: rgb(255, 255, 192);
+    }
+  
+    h1{
+      color: rgb(155, 155, 33);
+    }
+}
+
+/*2 Slices of Pizzas///////////////*/ 
+@media (max-width: 799px) and (min-width: 600px){
+    #pizza2{
+      display: block; 
+    }
+
+    body{
+      background: rgb(177, 245, 137);
+    }
+  
+    h1{
+      color: rgb(85, 174, 22);
+    }
+}
+
+/*1 Slice of Pizza///////////////*/ 
+@media (max-width: 599px){
+    #pizza1{
+      display: block; 
+    }
+
+    body{
+      background: rgb(180, 201, 248);
+    }
+  
+    h1{
+      color: rgb(76, 111, 223);
+    }
+}

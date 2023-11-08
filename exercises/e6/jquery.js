@@ -10,7 +10,6 @@ $("#mySquare").on("click", function() {
     });
 });
 
-
 // Manipulation: Append()
 $("#append-text").click(function() {
     $("#mySquare").append("🎃");
