@@ -1,17 +1,20 @@
-const catImage = document.querySelector('.cat-image');
-        const breedInfo = document.querySelector('#breed-info');
-        const newCatButton = document.querySelector('#new-cat-button');
+//Cat Public API Site: https://thecatapi.com////////
 
-        function fetchRandomCat() {
-            fetch('https://api.thecatapi.com/v1/images/search')
+const catPhotos = document.querySelector('.cat-photos');
+        const moreInfo = document.querySelector('#more-info');
+        const catButton = document.querySelector('#cat-button');
+
+function fetchRandomCat(){
+        fetch('https://api.thecatapi.com/v1/images/search') //Cat API Site//
                 .then(response => response.json())
                 .then(data => {
                     const cat = data[0];
-                    catImage.src = cat.url      
+                    catPhotos.src = cat.url      
                 })       
-        }
+}
 
-        newCatButton.addEventListener('click', fetchRandomCat);
+//button//
+catButton.addEventListener('click', fetchRandomCat);
 
-        // Initial load
-        fetchRandomCat();
+//Random Cat Picture when it loads//
+fetchRandomCat();
