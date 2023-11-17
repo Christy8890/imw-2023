@@ -1,0 +1,31 @@
+body{
+	background-color: #fff8e9;
+    background-image: url('outline1.png');
+    background-size: 50%;
+    padding: 20em;
+    background-repeat: no-repeat;
+    background-position: 50% 160px;
+    margin: 0;
+	  padding: 0;  
+}
+
+
+
+.instructions1{
+    font-size: 23px;
+  	font-family: 'Inter', sans-serif;
+ 	  font-weight: 500;
+	  padding-top: 60px;
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    margin: 0;
+  }
+
+  .draggable {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+  }

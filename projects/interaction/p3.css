@@ -1,21 +1,12 @@
 /*Setting up the body section//////////////////////////////////////*/
 /*CSS Page Set-up*/
-*{ 
-	margin: 0;
-	padding: 0;
-}
+
 
 body{
 	background-color: #fff8e9;
-}
-
-#entorno{
-	display: block;
-	margin: 0 auto;
-}
-
-#fondo{
-	opacity: 0.3;
+    margin: 0;
+	padding: 0;
+   
 }
 
 .title{
@@ -46,4 +37,27 @@ body{
   	font-family: 'Inter', sans-serif;
  	font-weight: 600;
 	padding-top: 20px;
+}
+
+.instructions2{
+    text-align: center;
+	font-size: 40px;
+  	font-family: 'Inter', sans-serif;
+ 	font-weight: 800;
+	padding-top: 340px;
+}
+
+.instructions3{
+    text-align: center;
+	font-size: 30px;
+  	font-family: 'Inter', sans-serif;
+ 	font-weight: 400;
+	padding-top: 10px;
+    
+}
+
+.draggable {
+    width: 200px;
+    height: 200px;
+    background: green;
 }
