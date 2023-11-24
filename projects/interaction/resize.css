@@ -1,0 +1,138 @@
+
+.instructions1{
+    font-size: 23px;
+  	font-family: 'Inter', sans-serif;
+ 	  font-weight: 500;
+	  padding-top: 60px;
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+img{
+  display: none; 
+}
+
+h1{
+  font-size: clamp(35px, 7vw, 70px);
+  font-family: 'Xanh Mono';
+}
+
+
+
+
+/*/////////////////// Responsiveness///////////////////*/
+
+/* First Image */
+@media (min-width: 1200px){
+  .try-again-button {
+    display: none; 
+  }
+  body {
+    background: rgb(255, 255, 255);
+    background: url('1.png') no-repeat center center fixed;
+    background-size: 130%;
+  }
+}
+
+/* Second Image */
+@media (max-width: 1199px) and (min-width: 1000px) {
+  .try-again-button {
+    display: none; 
+  }
+  body {
+    background: rgb(255, 255, 255);
+    background: url('2.png') no-repeat center center fixed;
+    background-size: 170%;
+  }
+}
+
+/* Third Image */
+@media (max-width: 999px) and (min-width: 800px) {
+  .try-again-button {
+    display: none; 
+  }
+  body {
+    background: rgb(255, 255, 255);
+    background: url('3.png') no-repeat center center fixed;
+    background-size: 170%;
+  }
+}
+
+/* Fourth Image */
+@media (max-width: 799px) and (min-width: 600px) {
+  .try-again-button {
+    display: none; 
+  }
+  body {
+    background: rgb(255, 255, 255);
+    background: url('4.png') no-repeat center center fixed;
+    background-size: 260%;
+  } 
+}
+
+/* Fifth Image */
+@media (max-width: 599px) {
+  body {
+    background: rgb(255, 255, 255);
+    background: url('5.png') no-repeat center center fixed;
+    background-size: 350%;
+  }
+
+  .try-again-button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+    
+  .button{
+    border: none;
+    color: brown;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 6px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    border: #000000;
+    border-width: 3px;
+    border-radius: 15px;
+  }
+    
+  .button1{
+    background-color: #b80000; 
+    color: black; 
+  }
+    
+  .button1:hover{
+    background-color: rgb(228, 141, 141);
+    color: #F8E0C1;
+  }
+        
+  a:link{
+    color: rgb(165, 2, 2);
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+    
+  a:visited{
+    color: #ffffff;
+  }
+     
+  a:hover{
+    color: #810a0a;
+  }
+    
+  a:active{
+    color: rgb(11, 116, 7);
+  } 
+}
+
+
+
+
+
