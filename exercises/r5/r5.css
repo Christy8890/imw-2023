@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Xanh Mono';
 }
 body{
   display: flex;
@@ -11,6 +11,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #000000;
+  font-family: 'Xanh Mono';
 }
 
 .title{
@@ -26,7 +27,7 @@ body{
 }
 section{
   background: #fff;
-  border-radius: 7px;
+  border-radius: 0px;
 }
 .tools-board{
   width: 210px;
@@ -44,14 +45,14 @@ section{
   cursor: pointer;
   align-items: center;
   margin-bottom: 10px;
+  font-family: 'Xanh Mono';
 }
 .option:is(:hover, .active) img{
   filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg) brightness(100%) contrast(100%);
 }
 .option :where(span, label){
   color: #5A6168;
-  cursor: pointer;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .option:is(:hover, .active) :where(span, label){
   color: #000000;
@@ -82,7 +83,7 @@ section{
 }
 .colors .option:nth-child(1){
   background-color: #fff;
-  border: 1px solid #bfbfbf;
+  border: 1px solid #494548;
 }
 .colors .option:nth-child(2){
   background-color: #000;
@@ -90,12 +91,7 @@ section{
 .colors .option:nth-child(3){
   background-color: #e020ba;
 }
-.colors .option:nth-child(4){
-  background-color: #6DD400;
-}
-.colors .option:nth-child(5){
-  background-color: #000000;
-}
+
 .colors .option.selected::before{
   position: absolute;
   content: "";
@@ -105,7 +101,7 @@ section{
   width: 12px;
   background: inherit;
   border-radius: inherit;
-  border: 2px solid #fff;
+  border: 2px solid #f7cbef;
   transform: translate(-50%, -50%);
 }
 .colors .option:first-child.selected::before{
@@ -117,15 +113,15 @@ section{
 }
 .buttons button{
   width: 100%;
-  color: #fff;
+  color: #f7cbef;
   border: none;
   outline: none;
   padding: 11px 0;
   font-size: 0.9rem;
+  font-family: 'Xanh Mono';
   margin-bottom: 13px;
   background: none;
   border-radius: 4px;
-  cursor: pointer;
 }
 .buttons .clear-canvas{
   color: #6C757D;
@@ -133,8 +129,8 @@ section{
   transition: all 0.3s ease;
 }
 .clear-canvas:hover{
-  color: #fff;
-  background: #6C757D;
+  color: #f7cbef;
+  background: #e541bc;
 }
 .buttons .save-img{
   background: #000000;
