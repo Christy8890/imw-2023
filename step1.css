@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: #FFEEC4;  
+  background-image: url("pics/h5.png");
+  background-repeat: no-repeat;
+  background-size: 100%
+   
+  } 
+
+  .backbutton,
+  .nextbutton {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-radius: 50%;
+    /* background-color: #040202; */
+    width: 48px;
+    height: 47px;
+  }
+  .backbutton {
+    top: 37px;
+    left: 1385px;
+  }
+  
+
+ .tabs {
+	display: flex;
+	flex-wrap: wrap; 
+}
+.tabs label {
+	order: 1; 
+	display: block;
+	padding: 1rem 4rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #E4A987;
+  font-weight: bold;
+  transition: ease 0.2s;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 15px;
+  font-family: 'Gluten', cursive;
+  font-weight: 200;
+}
+
+
+.tabs .tab {
+  order: 99; 
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.tab{
+  padding-left: 25px;
+}
+
+
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+
+body {
+  
+  min-height: 100vh;
+	box-sizing: border-box;
+	padding-top: 36vh;
+  padding-bottom: 60px;
+  padding-left: 33vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 86rem;
+  margin: 0 auto;
+  font-size: 90%;
+}
+
+.contents{
+  padding-left: 20px;
+  padding-bottom: 40px;
+  width: 1020px;
+  color: #520C05;
+}
+
+.contents2{
+  padding-top: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #a21c10;
+  font-family: 'Gluten', cursive;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #520C05;
+  font-family: 'Gluten', cursive;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e69088;
+  font-family: 'Gluten', cursive;
+}
+
+a:active {
+  text-decoration: none;
+  color: #520C05;
+  font-family: 'Gluten', cursive;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

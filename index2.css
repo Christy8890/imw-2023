@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("pics/h2.png");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  } 
+
+/* .title{
+    width: 551px;
+    font-size: 105px;
+    font-weight: 400;
+    font-family: 'Gluten', cursive;
+    color: #ffffff;
+    padding-top: 230px;
+    padding-left: 760px;
+} */
+
+.icon{
+    padding-top: 600px;
+    padding-left: 760px;
+} 
+
+.recipe-to-the {
+    position: absolute;
+    top: 240px;
+    left: 760px;
+    font-size: 106.19px;
+    line-height: 94.87%;
+    font-weight: 400;
+    font-family: 'Gluten', cursive;
+    color: #ffffff;
+    text-align: left;
+    display: inline-block;
+    width: 551.97px;
+    height: 303px;
+  }
+  .wireframe-21-child {
+    position: absolute;
+    top: 440px;
+    left: 1328px;
+  }
+ 
+  
