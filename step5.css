@@ -1,36 +1,40 @@
+/*Setting up the file*/
 *{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-    background-color: #F1F9CF;
-    background-image: url("pics/h9.png");
-    background-repeat: no-repeat;
-    background-size: 100%
-   
-  } 
+/*background*/
+body{
+  background-color: #F1F9CF;
+  background-image: url("h9.png");
+  background-repeat: no-repeat;
+  background-size: 100%
+} 
 
-  .backbutton,
-  .nextbutton {
-    position: absolute;
-    top: 35px;
-    left: 35px;
-    border-radius: 50%;
-    /* background-color: #040202; */
-    width: 48px;
-    height: 47px;
-  }
-  .backbutton {
-    top: 37px;
-    left: 1385px;
-  }
+/*front and back buttons*/
+.backbutton,
+.nextbutton{
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-radius: 50%;
+  width: 48px;
+  height: 47px;
+}
 
-  .thumbnail{
-    padding-top: 310px;
-    padding-left: 80px;
-  }
+.backbutton{
+  top: 37px;
+  left: 1385px;
+}
 
+/*project thumbnail*/
+.thumbnail{
+  padding-top: 310px;
+  padding-left: 80px;
+}
+
+/*external links*/
 .linking{
   padding-left: 83px;
   padding-top: 10px;
@@ -38,32 +42,31 @@ body {
   font-family: 'Gluten', cursive;
 }
 
-a:link {
+a:link{
   text-decoration: none;
   color: #520C05;
   font-family: 'Gluten', cursive;
 }
 
-a:visited {
+a:visited{
   text-decoration: none;
   color: #520C05;
   font-family: 'Gluten', cursive;
 }
 
-a:hover {
+a:hover{
   text-decoration: none;
   color: #e69088;
   font-family: 'Gluten', cursive;
 }
 
-a:active {
+a:active{
   text-decoration: none;
   color: #520C05;
   font-family: 'Gluten', cursive;
 }
   
-/*********************************Speaker*********************************/
-
+/*********************************Reflection slides*********************************/
 .speaker{
   padding-left: 77px;
   color:#ffffff;
