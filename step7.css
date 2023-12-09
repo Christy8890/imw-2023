@@ -1,30 +1,33 @@
+/*Setting up the file*/
 *{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-    background-image: url("pics/h11.png");
-    background-repeat: no-repeat;
-    background-size: 100%
-   
-  } 
+/*background*/
+body{
+  background-image: url("h11.png");
+  background-repeat: no-repeat;
+  background-size: 100%
+} 
 
-  .backbutton,
-  .nextbutton {
-    position: absolute;
-    top: 35px;
-    left: 35px;
-    border-radius: 50%;
-    /* background-color: #040202; */
-    width: 48px;
-    height: 47px;
-  }
-  .backbutton {
-    top: 37px;
-    left: 1385px;
-  }
+/*front and back buttons*/
+.backbutton,
+.nextbutton{
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-radius: 50%;
+  width: 48px;
+  height: 47px;
+}
 
+.backbutton{
+  top: 37px;
+  left: 1385px;
+}
+
+/*gif*/
 .giffy{
   padding-top: 20px;
 }
